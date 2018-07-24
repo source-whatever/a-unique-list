@@ -1,0 +1,205 @@
+@charset 'UTF-8';
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    font-size: 100%;
+}
+
+ul
+{
+    list-style: none;
+}
+
+button,
+input,
+select,
+textarea
+{
+    margin: 0;
+}
+
+html
+{
+    box-sizing: border-box;
+}
+
+*,
+:before,
+:after
+{
+    box-sizing: inherit;
+}
+
+embed,
+object,
+audio,
+video
+{
+    max-width: 100%;
+    height: auto;
+}
+
+iframe
+{
+    border: 0;
+}
+
+table
+{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+td,
+th
+{
+    padding: 0;
+
+    text-align: left;
+}
+
+html
+{
+    font-size: 62.5%;
+
+    overflow: auto;
+    overflow-y: scroll;
+
+    -webkit-overflow-scrolling: touch;
+}
+
+body
+{
+    font-family: YuGothic, 'Yu Gothic', 'ヒラギノ角ゴシック', 'Hiragino Sans', 'メイリオ', Meiryo, sans-serif;
+    font-size: 1.6em;
+    line-height: 1;
+
+    position: relative;
+
+    overflow-x: hidden;
+
+    width: 100%;
+
+    word-wrap: break-word;
+
+    -webkit-text-size-adjust: 100%;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6
+{
+    font-weight: normal;
+}
+
+body .button,
+body a,
+body .button::before,
+body a::before,
+body .button::after,
+body a::after
+{
+    box-sizing: border-box;
+
+    transition: all .3s;
+}
+
+body a
+{
+    text-decoration: none;
+}
+
+body a:hover
+{
+    cursor: pointer;
+}
+
+body img
+{
+    display: block;
+
+    border: none;
+}
+
+#list
+{
+    width: 80%;
+    margin: 0 auto;
+    padding: 2.5% 0;
+
+    border-right: 1px solid #e3e3e3;
+    border-left: 1px solid #e3e3e3;
+}
+
+#list ul
+{
+    border-left: 5px solid #999;
+}
+
+#list ul li
+{
+    display: -moz-flex;
+    display:  -ms-flex;
+    display:   -o-flex;
+    display:      flex;
+    display: -ms-flexbox;
+    /*--- IE10 ---*/
+
+    padding: 1.5% 0 1.5% 2%;
+    /*IE10*/
+
+    align-items: center;
+    -ms-flex-align: center;
+}
+
+#list ul li:not(:last-child)
+{
+    border-bottom: 1px solid #e3e3e3;
+}
+
+#list ul li .ttl
+{
+    width: 10%;
+
+    color: #fd5c63;
+}
+
+#list ul li .detail
+{
+    width: 90%;
+}
